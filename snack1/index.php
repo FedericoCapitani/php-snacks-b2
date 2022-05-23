@@ -48,6 +48,18 @@ var_dump($visible_ads);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>snack1</title>
+    <style>
+        .card{
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 1rem;
+            align-items: center;
+        }
+        .card img{
+            max-width: 600px;
+        }
+    </style>
 </head>
 <body>
     
